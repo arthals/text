@@ -1,0 +1,50 @@
+create (15, 4, UNIT)
+
+create (11, 6, OR)
+create (19, 6, OR)
+
+create (9, 10, AND)
+create (13, 10, OR)
+create (17, 10, AND)
+create (21, 10, XOR)
+
+create (11, 14, AND)
+create (15, 14, AND)
+create (19, 14, OR)
+
+create (9, 19, INPUT)
+create (11, 19, INPUT)
+create (13, 19, INPUT)
+create (15, 19, INPUT)
+create (17, 19, INPUT)
+create (19, 19, INPUT)
+create (21, 19, INPUT)
+create (23, 19, INPUT)
+
+connect (1, 0, 0)
+connect (2, 0, 2)
+
+connect (3, 1, 0)
+connect (4, 1, 2)
+
+connect (5, 2, 0)
+connect (6, 2, 2)
+
+connect (7, 3, 2)
+connect (7, 4, 0)
+
+connect (8, 4, 2)
+connect (8, 5, 0)
+
+connect (9, 5, 2)
+connect (9, 6, 0)
+
+// inputs
+connect (10, 3, 0)
+connect (11, 7, 0)
+connect (12, 7, 2)
+connect (13, 8, 0)
+connect (14, 8, 2)
+connect (15, 9, 0)
+connect (16, 9, 2)
+connect (17, 6, 2)
