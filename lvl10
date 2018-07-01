@@ -1,10 +1,10 @@
 create (15, 6, UNIT)
 
-create (12, 10, XOR)
+create (12, 10, AND)
 create (18, 10, XNOR)
 
-create (10, 14, NAND)
-create (20, 14, AND)
+create (10, 14, NOR)
+create (20, 14, XOR)
 
 create (10, 18, INPUT)
 create (12, 18, INPUT)
