@@ -9,7 +9,7 @@ create (20, 14, XOR)
 create (10, 18, INPUT)
 create (12, 18, INPUT)
 create (14, 18, INPUT)
-create (16, 18, INPUT)
+
 create (18, 18, INPUT)
 create (22, 18, INPUT)
 
