@@ -24,7 +24,8 @@ connect (4, 2, 2)
 connect (5, 3, 0)
 connect (6, 3, 2)
 
-connect (8, 0, 1)
+connect (7, 1, 2)
+
 connect (9, 2, 0)
 connect (9, 4, 0)
 connect (10, 4, 2)
